@@ -5,11 +5,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    height: 100vh;
+    height: 208vh;
     box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);
     justify-content: space-between;
     font-weight: bold;
-    max-width: 15%;
 `
 
 export const UpContent = styled.div`
@@ -35,6 +34,10 @@ export const MenuItem = styled.li`
     display: flex;
     align-items: center;
     padding: 0.75rem 0;
+
+    &:first-child {
+        color: #3374AB;
+    }
     
     span {
         margin-right: 1rem !important;

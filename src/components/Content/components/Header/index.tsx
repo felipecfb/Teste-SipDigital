@@ -1,11 +1,11 @@
 import React from 'react';
-import { Searchbar } from './SearchBar';
+import { Searchbar } from './components/SearchBar';
 
 import Image from "next/image";
 
 import * as S from "./styles";
 
-export function ContentHeader() {
+export function Header() {
     return (
         <S.Container>
             <Searchbar />

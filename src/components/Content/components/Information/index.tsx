@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import * as S from "./styles";
 
-export function ContentInformation() {
+export function Information() {
   const value = 427300.5;
   const valueFormatted = value.toLocaleString("pt-BR", {
     style: "currency",

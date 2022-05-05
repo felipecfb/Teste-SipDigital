@@ -1,12 +1,21 @@
 import React from "react";
-import { ContentHeader } from "./ContentHeader";
-import { ContentInformation } from "./ContentInformation";
+
+import { Container } from "./styles";
+
+import { Header } from "./components/Header";
+import { Information } from "./components/Information";
+import { Graph } from "./components/Graph";
+import { LastOrders } from "./components/LastOrders";
 
 export function Content() {
   return (
     <>
-      <ContentHeader />
-      <ContentInformation />
+      <Container>
+        <Header />
+        <Information />
+        <Graph />
+        <LastOrders />
+      </Container>
     </>
   );
 }
